@@ -4,15 +4,14 @@
   </div>
 </div>
 
-
 <section class="row">
-  <div class="col-md-6">
+  <div *ngFor="let feature of featured" class="col-md-6">
     <div class="card shadow-sm animated">
       <div class="new">NEW</div>
-      <a href="#"><img class="card-img-top" src="../../assets/img/property1.jpg" alt="Card image cap"></a>
+      <a href="#"><img class="card-img-top" src="{{feature.imagePath}}" alt="Card image cap"></a>
       <div class="card-body">
-        <h4>{{featured.price}}</h4>
-        <p class="card-text">{{featured.description}}</p>
+        <h4>{{feature.price}}</h4>
+        <p class="card-text">{{feature.description}}</p>
         <div class="d-flex justify-content-between align-items-center">
         </div>
       </div>

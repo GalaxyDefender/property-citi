@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Featured } from './featured.model';
+import { featured } from '../featured';
 
 @Component({
   selector: 'app-featured',
@@ -7,10 +7,7 @@ import { Featured } from './featured.model';
   styleUrls: ['./featured.component.css']
 })
 export class FeaturedComponent implements OnInit {
-
-  featured: Featured[] = [
-    new Featured('R1,600,000', '2 Bedroom House For Sale in Jefferys Bay', '../../assets/img/property1.jpg')
-  ];
+  featured = featured;
 
   constructor() { }
 
