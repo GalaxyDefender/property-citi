@@ -1,0 +1,48 @@
+What is Expected:
+
+1. FRAMEWORK:
+You may use a framework or language of your choice. The attached layout is using the grid 960 framework (i.e. 12 column grid with 20px gutters within 960px container)
+The font used throughout is Google's Open Sans
+
+2. MOBI/RESPONSIVE:
+Yes, you will need to cater for mobile devices based on this layout.
+
+3. LAYOUT: 
+The final result should look exactly the same as the homepage.png provided. Attention to detail is key!
+
+4. KEY POINTS:
+
+Header
+ - Slider: 
+ Will need to rotate between the 2 homepage images every 5 seconds.
+
+ - Search Bar:
+ The Form doesn't need to function, but will need you to style all the visible form elements.
+
+Body
+ - Featured Properties:  
+ Will need to apply animations/transitions/effects on mouse-over/hover.
+
+ - 3 Content Blocks:
+ Will need to apply animations/transitions/effects on mouse-over/hover.
+
+
+
+
+
+5. BONUS QUESTION:
+-------------------------------
+if x = 10
+while x is greater than 10
+    print x
+
+How many times will x print?
+-------------------------------
+
+
+
+If you have any questions please contact me on.
+
+Office: 031 266 0035
+Email: julian@propdata.net
+
