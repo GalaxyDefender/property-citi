@@ -1,3 +1,7 @@
+h2 {
+    margin-bottom: 35px;
+}
+
 .new {
     position: absolute;
     background-color: #d51378;
@@ -7,7 +11,7 @@
 }
 
 .card {
-    border: 1px solid #cccccc;
+    border: 1px solid rgba(204, 204, 204, 1);
     padding: 20px;
     box-sizing: border-box;
     border-radius: 0px;
@@ -19,8 +23,13 @@
 
 .card-body h4 {
     margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #97c82d;
+    font-weight: bold;
 }
 
 .card-text {
     margin: 0px;
+    font-weight: bold;
 }
