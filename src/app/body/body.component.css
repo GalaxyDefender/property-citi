@@ -6,3 +6,7 @@
 #print_icon {
     margin-right: 10px;
 }
+
+.breadcrumb a {
+    color: #7c7c7c;
+}
