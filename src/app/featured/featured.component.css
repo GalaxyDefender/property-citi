@@ -1,0 +1,26 @@
+.new {
+    position: absolute;
+    background-color: #d51378;
+    color: white;
+    padding: 4px 12px;
+    box-sizing: border-box;
+}
+
+.card {
+    border: 1px solid #cccccc;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+
+.card-body {
+    padding: 15px 0px 0px 0px;
+}
+
+.card-body h4 {
+    margin: 0px;
+}
+
+.card-text {
+    margin: 0px;
+}
