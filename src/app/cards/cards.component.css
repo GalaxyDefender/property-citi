@@ -26,3 +26,14 @@ img {
 p {
     font-size: 1.5rem;
 }
+
+@media screen and (max-width: 834px) and (min-width: 768px) {
+    .media-body {
+        margin-right: 18px;
+        padding-bottom: 20px;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}

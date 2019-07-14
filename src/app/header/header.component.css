@@ -18,7 +18,8 @@ a.active {
     color: #1682c2;
     font-weight: 600;
     padding-top: 10px;
-    float: right; padding-right: 8px;
+    float: right; 
+    padding-right: 8px;
     text-decoration: none;
 }
 
@@ -29,4 +30,8 @@ a.active {
 
 .phone:hover {
     color: #d61478;
+}
+
+@media screen and (max-width: 834px) and (min-width: 768px) {
+    
 }
