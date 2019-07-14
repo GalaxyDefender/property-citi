@@ -45,6 +45,11 @@ input.webRef {
     color: white;
     border-radius: 0px;
     float: right;
+    transition: background-color .5s ease-out;
+}
+
+.btn:hover {
+    background-color: #d51378;   
 }
 
 .btn > img {

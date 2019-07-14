@@ -25,6 +25,7 @@
 
 a {
     color: #fff;
+    text-decoration: none;
 }
 
 #more {
@@ -32,4 +33,9 @@ a {
     background-color: #97c82d; 
     float: right;
     padding: 12px;
+    transition: background-color .5s ease-out;
+}
+
+#more:hover {
+    background-color: #d51378;   
 }
