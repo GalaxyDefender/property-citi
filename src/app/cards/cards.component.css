@@ -4,6 +4,14 @@
     transition-timing-function: ease-out;
 }
 
+.col-md-4#left {
+    padding-left: 0px;
+}
+
+.col-md-4#right {
+    padding-right: 0px;
+}
+
 .media:hover {
     box-shadow: 10px 10px 5px rgba(204, 204, 204, 1);
     transform: translate(-5px, -5px);
@@ -35,5 +43,21 @@ p {
 
     p {
         font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 414px) and (min-width: 360px) {
+    p {
+        font-size: 1rem;
+    }
+
+    .col-md-4#left {
+        padding-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    .col-md-4#right {
+        padding-left: 0px;
+        margin-top: 15px;
     }
 }

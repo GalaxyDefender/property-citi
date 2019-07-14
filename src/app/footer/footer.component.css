@@ -23,3 +23,9 @@ ul li {
     list-style: none;
     float: right;
 }
+
+@media screen and (max-width: 414px) and (min-width: 360px) {
+    ul li {
+        margin-top: 20px;
+    }
+}

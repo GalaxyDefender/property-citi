@@ -1,5 +1,5 @@
 #myCarousel {
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
     position: relative; 
     bottom: 200px; 
     margin-bottom: -200px;
@@ -11,6 +11,17 @@ img {
 }
 
 @media screen and (max-width: 834px) and (min-width: 768px){
+    img {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 414px) and (min-width: 360px) {
+    #myCarousel {
+        bottom: 10px;
+        margin-bottom: 10px;
+    }
+
     img {
         margin-top: 0px;
     }

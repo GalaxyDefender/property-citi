@@ -95,3 +95,9 @@ input.webRef {
         width: 450px;
     }
 }
+
+@media screen and (max-width: 414px) and (min-width: 360px) {
+    .carousel-form {
+        display: none;
+    }
+}
