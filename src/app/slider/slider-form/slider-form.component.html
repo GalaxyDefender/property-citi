@@ -1,34 +1,32 @@
 <form class="carousel-form col-12 col-sm-12 col-md-12 col-lg-8 offset-lg-2" action="">
-  <div class="form-row" style="margin-bottom: 20px;">
-      <select class="custom-select col-12 col-sm-3 col-md-3 col-lg-1" id="inputGroupSelect01">
-        <option selected>Buy</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
-      </select>
-      <select class="custom-select col-12 col-sm-4 col-md-3 col-lg-4" id="inputGroupSelect02">
-        <option selected>Residential</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
-      </select>
-      <input class="form-control col-12 col-sm col-md col-lg" type="text" placeholder="Type Area or Suburb Name">
-  </div>
-
-  <div class="form-row nd2-input-group">
-    <div class="col-sm-6 col-md col-lg-3" style="padding: 0px;">
-      <input type="text" class="form-control" id="inputGroupSelect03" placeholder="# Web Ref Number Search">
-    </div>
-    <div class="col-sm-6 col-md col-lg-4">
-      <select class="custom-select" id="inputGroupSelect05" style="color: white;">
-        <option selected>More Search Options</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
+  <div class="form-row">
+    <div class="form-group col-md-1">
+      <select id="inputState" class="form-control down-arrow">
+        <option>Buy</option>
+        <option >Option 1</option>
       </select>
     </div>
-    <div class="col-sm-6 col-md-2 col-lg-1 btn" style="color: white;">
-      <span id="search">SEARCH</span>    
+    <div class="form-group col-md-3">
+      <select id="inputState" class="form-control down-arrow">
+        <option select>Residential</option>
+        <option >Option 1</option>
+      </select>
+    </div>
+    <div class="form-group col-md-8">
+      <input type="text" class="form-control" placeholder="Type Area or Suburb Name">
     </div>
   </div>
+  
+  <div >
+      <input type="text" class="form-control blue-input col-md-3 webRef" style="float: left; " placeholder="Web Ref Number Search">
+  </div>
+  <div>
+    <button type="button" class="btn mb-3"><img src="../../../assets/img/magnifying_glass.png" alt=""> SEARCH</button>
+  </div> 
+  <div style="float: right; margin-right: 10px;">
+    <select class="form-control up-arrow blue-input">
+      <option select>More Search Options</option>
+      <option >Option 1</option>
+    </select>
+  </div>  
 </form>

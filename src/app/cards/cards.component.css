@@ -1,0 +1,21 @@
+.media {
+    border: 1px solid #97c82d;
+}
+
+.media-body {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+img {
+    background-color: #97c82d;
+    padding: 10px 15px;
+}
+
+.row {
+    margin: 50px 0px;
+}
+
+p {
+    font-size: 1.5rem;
+}

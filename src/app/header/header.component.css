@@ -1,0 +1,30 @@
+/* .d-flex {
+    z-index: 1;
+    position: absolute;
+} */
+
+a {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #6c757d;
+}
+
+a.active {
+    border: 1px solid #d61478;
+    color: #d61478;
+}
+
+.phone {
+    color: #1682c2;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.phone::before {
+    content: url(../../assets/img/phone.png);
+    padding-right: 15px;
+}
+
+.phone + a:hover {
+    text-decoration: none;
+}
