@@ -16,6 +16,13 @@ h2 {
     padding: 20px;
     box-sizing: border-box;
     border-radius: 0px;
+    transition: .5s;
+    transition-timing-function: ease-out;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 5px rgba(204, 204, 204, 1);
+    transform: translate(-5px, -5px);
 }
 
 .card-body {
