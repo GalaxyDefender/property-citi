@@ -1,5 +1,12 @@
 .media {
     border: 1px solid #97c82d;
+    transition: .5s;
+    transition-timing-function: ease-out;
+}
+
+.media:hover {
+    box-shadow: 10px 10px 5px rgba(204, 204, 204, 1);
+    transform: translate(-5px, -5px);
 }
 
 .media-body {
