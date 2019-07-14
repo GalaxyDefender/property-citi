@@ -19,6 +19,7 @@ select.down-arrow {
     background-repeat: no-repeat;
     background-position: right .7em top 50%, 0 0;
     background-size: 1.5em auto, 100%;
+    /* padding-left: 1px; */
 }
 
 select.up-arrow {
@@ -65,4 +66,21 @@ input.webRef {
 
 .blue-input::placeholder{
     color: white;
+}
+
+@media screen and (max-width: 1440px) {
+    .carousel-form {
+        bottom: 350px;
+    }
+
+    select.down-arrow {
+        background-position: right .1em top 50%, 0 0;
+        background-size: 1em auto, 100%;
+    }
+
+    input.webRef {
+        background-position: left .3em top 50%, 0 0;
+        background-size: 1em auto, 100%;
+        padding-right: 0px;
+    }
 }
