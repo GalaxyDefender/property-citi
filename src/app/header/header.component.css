@@ -1,12 +1,12 @@
-/* .d-flex {
-    z-index: 1;
-    position: absolute;
-} */
-
 a {
     text-transform: uppercase;
     font-weight: 600;
     color: #6c757d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1682c2;
 }
 
 a.active {
@@ -18,6 +18,8 @@ a.active {
     color: #1682c2;
     font-weight: 600;
     padding-top: 10px;
+    float: right; padding-right: 8px;
+    text-decoration: none;
 }
 
 .phone::before {
@@ -25,6 +27,6 @@ a.active {
     padding-right: 15px;
 }
 
-.phone + a:hover {
-    text-decoration: none;
+.phone:hover {
+    color: #d61478;
 }
